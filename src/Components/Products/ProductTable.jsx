@@ -18,7 +18,7 @@ const ProductTable = () => {
     const handleSearch = (e) => {
         const term = e.target.value.toLowerCase();
         setSearchTerm(term);
-        const filtered = productData.filter(product=>product.name.toLowerCase().includes(term) || product.category.toLowerCase.includes(term));
+        const filtered = productData.filter(product=>product.name.toLowerCase().includes(term) || product.category.toLowerCase().includes(term));
         setFilteredProduct(filtered);
     }
 
