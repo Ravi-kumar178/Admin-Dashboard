@@ -19,7 +19,7 @@ const userStats = {
 const UsersPage = () => {
   return (
     <div className='z-10 flex-1 overflow-auto relative'>
-         <Header title={"Products"}/>
+         <Header title={"Users"}/>
 
         <main className='max-w-7xl mx-auto py-6 px-4 lg:px-8'>
           {/* stats */}
