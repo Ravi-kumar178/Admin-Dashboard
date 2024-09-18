@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import SettingSection from './SettingSection'
+
 import { Trash2 } from 'lucide-react'
 
 const DangerZone = () => {
